@@ -1,0 +1,25 @@
+{
+    "collection": {
+        "@name": "devices",
+        "device": [
+            {
+                "lastAccessDate": "1654604363488",
+                "name": "Samsung Galaxy S21 Ultra",
+                "id": "5sf84as1-02gd-adcs-7632-afdc65aebac8",
+                "creationDate": "1654604363508",
+                "platform": "Android",
+                "status": "ACTIVE",
+                "expirationDate": "1654604663488"
+            },
+            {
+                "lastAccessDate": "1654604363488",
+                "name": "Xiaomi Redmi Note 10",
+                "id": "550e8400-e29b-41d4-a716-446655440000",
+                "creationDate": "1654604363508",
+                "platform": "Android",
+                "status": "BLOCK",
+                "expirationDate": "1654604663488"
+            }
+        ]
+    }
+}

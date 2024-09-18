@@ -1,0 +1,94 @@
+<SOAP-ENV:Envelope
+        xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope"
+        xmlns:e="http://www.technisys.net/cmm/services/errors/v1.0"
+        xmlns:md="http://www.technisys.net/cmm/services/metadata/v2.0"
+        xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"
+        xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <SOAP-ENV:Header>
+        <md:metadata>
+            <serviceId>processResultsNotificationPush</serviceId>
+            <serviceVersion>1.0</serviceVersion>
+            <sessionId>5cc236dc-c559-4621-a440-2a660e7d7157</sessionId>
+            <channelId>MB</channelId>
+            <targetChannel>
+                <mnemonic>MB</mnemonic>
+            </targetChannel>
+            <organizationType>
+                <mnemonic/>
+            </organizationType>
+            <executingChannel>
+                <mnemonic>MB</mnemonic>
+            </executingChannel>
+            <address>ip=10.230.241.199;</address>
+            <executingOperatorId>uriTech=OPERADOR_EMPRESA@10730;uriSFB=1#0500628912;uriRUC=3#0500628912001;OWNER=true
+            </executingOperatorId>
+            <locale>ES</locale>
+            <institutionType/>
+            <template>
+                <templateId/>
+            </template>
+            <channelDispatchDate>20220503205514381-0300</channelDispatchDate>
+            <msgTypeId/>
+            <workflowModule/>
+            <featureId>ROL@5527</featureId>
+            <sourceDate/>
+            <workflowId/>
+            <businessDate/>
+            <terminalId>Mozilla/5.0 (Macintosh; Intel Mac OS X 11_6_0)
+                AppleWebKit/537.36 (KHTML, like Gecko) ReactNativeDebugger/0.12.1
+                Chrome/87.0.4280.141 Electron/11.4.6 Safari/537.36
+            </terminalId>
+            <sourceTime/>
+            <branchId/>
+            <userId/>
+            <executingScope/>
+            <customProperties>
+                <operatorId type="java.lang.String"/>
+                <businessDate type="java.util.Date"/>
+                <serviceContext type="java.lang.String"/>
+                <llaveSimetrica type="java.lang.String"/>
+                <funcCode type="java.lang.String"/>
+                <funcType type="java.lang.String">OVA</funcType>
+                <terminal type="java.lang.String"/>
+                <portal type="java.lang.String"/>
+            </customProperties>
+            <llaveSimetrica type="java.lang.String"/>
+            <organizationOperatorId>userName=ALMEIDA001</organizationOperatorId>
+            <parityCurrencyId/>
+            <localCurrencyId/>
+            <institutionId/>
+            <localCountryId/>
+            <bankId/>
+            <ip>10.230.241.199</ip>
+            <parityQuotationNemonic/>
+            <paginationInfo/>
+            <internals>
+                <auditCore>true</auditCore>
+                <autoPaginationEnabled>false</autoPaginationEnabled>
+                <serviceProviderEntityName>LOCAL</serviceProviderEntityName>
+                <serviceProviderName>DINERS</serviceProviderName>
+                <translate>true</translate>
+                <serviceRequestTimestamp/>
+            </internals>
+        </md:metadata>
+    </SOAP-ENV:Header>
+    <SOAP-ENV:Body>
+        <NS3:processResultsNotificationPushRequest
+                xmlns:NS3="http://www.technisys.net/cmm/services/processResultsNotificationPush/rq/v1.0">
+            <idUniken>TEST</idUniken>
+            <responseCode>0</responseCode>
+            <notificationUuid>03f67f9e-ec4f-11e6-b006-92361f002671</notificationUuid>
+            <actionResponse>Approved</actionResponse>
+            <errorCode>0</errorCode>
+            <errorMessage></errorMessage>
+            <status>ACTIVE</status>
+            <deliveryStatus>NOTIFIED</deliveryStatus>
+            <isDsVerified>true</isDsVerified>
+            <msgId></msgId>
+            <createTs>1646252183</createTs>
+            <updateTs>1646252243</updateTs>
+            <expiryTimestamp>1646252363</expiryTimestamp>
+            <clientIpAddress>192.168.1.100</clientIpAddress>
+        </NS3:processResultsNotificationPushRequest>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

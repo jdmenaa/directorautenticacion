@@ -1,0 +1,25 @@
+{
+  "dinHeader": {
+    "aplicacionId": "TCHNSY",
+    "canalId": "IN",
+    "uuid": ":66c70e82-d24b-4383-9cc9-a9b52d0b77dd",
+    "sesionId": "66c70e82-d24b-4383-9cc9-a9b52d0b77dd",
+    "idioma": "ES",
+    "ip": "98.98.27.122",
+    "horaTransaccion": "2024-04-25T12:05:43.00444",
+    "nivelTrace": "DEBUG",
+    "nombreServicio": "updateUserDeviceState",
+    "llaveSimetrica": "",
+    "portalId": "PBN",
+    "paginado": {
+      "cantRegistros": "0",
+      "numTotalPag": "0",
+      "numPagActual": "0"
+    },
+    "usuario": "CASH20QA2025"
+  },
+  "dinBody": {
+    "idUniken": "300492459",
+    "estado": "a"
+  }
+}

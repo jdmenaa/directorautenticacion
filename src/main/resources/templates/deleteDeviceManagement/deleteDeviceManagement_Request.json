@@ -1,0 +1,25 @@
+{
+    "mfa": {
+        "id": "mfa123"
+    },
+    "device": {
+        "id": "device456"
+    },
+    "customer": {
+        "customerId": "cust789",
+        "profile": "profileXYZ",
+        "additionalCustomerType": {
+            "customerTypeId": "custType101",
+            "officialId": "official202"
+        }
+    },
+    "establishment": {
+        "ruc": "ruc12345"
+    },
+    "transaction": {
+        "code": "trans789"
+    },
+    "variables": {
+        "deviceName": "deviceXYZ"
+    }
+}

@@ -1,0 +1,35 @@
+<soap:Envelope
+	xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+	xmlns:md="http://www.technisys.net/cmm/services/metadata/v2.0"
+	xmlns:srv="http://www.technisys.net/cmm/services/massiveSelectTrustedDevicesListing/rs/v1.0">
+	<soap:Header>
+		<md:metadata>
+			<md:serviceId>massiveSelectTrustedDevicesListing</md:serviceId>
+			<md:serviceVersion>1.0</md:serviceVersion>
+		</md:metadata>
+	</soap:Header>
+	<soap:Body>
+		<srv:massiveSelectTrustedDevicesListingResponse>
+			<collection name="devices">
+				<device>
+					<name>Samsung Galaxy S21 Ultra</name>
+					<id>5sf84as1-02gd-adcs-7632-afdc65aebac8</id>
+					<platform>Android</platform>
+					<status>ACTIVE</status>
+					<creationDate>1654604363508</creationDate>
+					<lastAccessDate>1654604363488</lastAccessDate>
+					<expirationDate>1654604663488</expirationDate>
+				</device>
+				<device>
+					<name>Xiaomi Redmi Note 10</name>
+					<id>550e8400-e29b-41d4-a716-446655440000</id>
+					<platform>Android</platform>
+					<status>BLOCK</status>
+					<creationDate>1654604363508</creationDate>
+					<lastAccessDate>1654604363488</lastAccessDate>
+					<expirationDate>1654604663488</expirationDate>
+				</device>
+			</collection>
+		</srv:massiveSelectTrustedDevicesListingResponse>
+	</soap:Body>
+</soap:Envelope>

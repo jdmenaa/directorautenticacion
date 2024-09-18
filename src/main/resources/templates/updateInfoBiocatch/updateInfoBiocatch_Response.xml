@@ -1,0 +1,44 @@
+<soap:Envelope xmlns:md="http://www.technisys.net/cmm/services/metadata/v2.0" xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:srv="http://www.technisys.net/cmm/services/updateInfoBiocatch/rs/v1.0">
+    <soap:Header>
+        <md:metadata>
+            <organizationType>
+                <mnemonic></mnemonic>
+            </organizationType>
+            <sourceTime>20220503205514381-0300</sourceTime>
+            <institutionId></institutionId>
+            <userId>uriTech=OPERADOR_EMPRESA@10730;uriSFB=1#0500628912;uriRUC=3#0500628912001;OWNER=true
+			</userId>
+            <channelId>MB</channelId>
+            <institutionType></institutionType>
+            <terminalId>Mozilla/5.0 (Macintosh; Intel Mac OS X 11_6_0)
+				AppleWebKit/537.36 (KHTML, like Gecko) ReactNativeDebugger/0.12.1
+				Chrome/87.0.4280.141 Electron/11.4.6 Safari/537.36
+			</terminalId>
+            <channelDispatchDate>20220503205514381-0300</channelDispatchDate>
+            <address>ip=10.230.241.199;</address>
+            <traceNumber>187930897956919592454856256953371298936.173360960790668113791382117073848686434</traceNumber>
+            <organizationOperatorId>userName=ALMEIDA001</organizationOperatorId>
+            <organizationId></organizationId>
+            <executingOperatorId>uriTech=OPERADOR_EMPRESA@10730;uriSFB=1#0500628912;uriRUC=3#0500628912001;OWNER=true
+			</executingOperatorId>
+            <sessionId>5cc236dc-c559-4621-a440-2a660e7d7157</sessionId>
+            <featureId>ROL@5527</featureId>
+            <internals>
+                <serviceProviderEntityName>LOCAL</serviceProviderEntityName>
+                <serviceProviderName>DINERS</serviceProviderName>
+            </internals>
+            <executingChannel>
+                <mnemonic translationError="UNDEFINED_TRANSLATION">MB</mnemonic>
+                <originalCodes>originalCode=MB;</originalCodes>
+            </executingChannel>
+            <locale>ES</locale>
+            <md:serviceId>updateInfoBiocatch</md:serviceId>
+            <md:serviceVersion>1.0</md:serviceVersion>
+        </md:metadata>
+    </soap:Header>
+    <soap:Body>
+        <srv:updateInfoBiocatchResponse>
+            <bcStatus>updated</bcStatus>
+        </srv:updateInfoBiocatchResponse>
+    </soap:Body>
+</soap:Envelope>

@@ -1,0 +1,34 @@
+{
+  "dinHeader": {
+    "aplicacionId": "TCHNSY",
+    "canalId": "MB",
+    "uuid": ":5cc236dc-c559-4621-a440-2a660e7d7157",
+    "sesionId": "5cc236dc-c559-4621-a440-2a660e7d7157",
+    "idioma": "ES",
+    "ip": "10.230.241.199",
+    "horaTransaccion": "2022-05-03T18:55:14.00381",
+    "nivelTrace": "DEBUG",
+    "nombreServicio": "deleteDeviceManagement",
+    "llaveSimetrica": "",
+    "portalId": "",
+    "paginado": {
+      "cantRegistros": "0",
+      "numTotalPag": "0",
+      "numPagActual": "0"
+    },
+    "usuario": "ALMEIDA001"
+  },
+  "dinBody": {
+    "idUniken": "mfa123",
+    "idDispositivo": "device456",
+    "identificacionUsuario": "cust789",
+    "perfil": "profileXYZ",
+    "rucEmpresa": "ruc12345",
+    "numIdentificacionAdicional": "custType101",
+    "tipoIdentificacionAdicional": "official202",
+    "codigoTransaccion": "trans789",
+    "variables": {
+      "nombreDispositivo": "deviceXYZ"
+    }
+  }
+}

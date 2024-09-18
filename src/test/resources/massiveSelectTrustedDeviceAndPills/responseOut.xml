@@ -1,0 +1,40 @@
+<soap:Envelope
+	xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+	xmlns:md="http://www.technisys.net/cmm/services/metadata/v2.0"
+	xmlns:srv="http://www.technisys.net/cmm/services/massiveSelectTrustedDeviceAndPills/rs/v1.0">
+	<soap:Header>
+		<md:metadata>
+			<md:serviceId>massiveSelectTrustedDeviceAndPills</md:serviceId>
+			<md:serviceVersion>1.0</md:serviceVersion>
+		</md:metadata>
+	</soap:Header>
+	<soap:Body>
+		<srv:massiveSelectTrustedDeviceAndPillsResponse>
+			<mfa>
+				<id>18994de4ce0477600f25fa96c51ca39b8</id>
+			</mfa>
+			<fraudMonitoring>
+				<id>18994de4ce0477600f25fa96c51ca39b8</id>
+			</fraudMonitoring>
+			<biometric>
+				<id>18994de4ce0477600f25fa96c51ca39b8</id>
+			</biometric>
+			<device>
+				<isAllDeviceBlocked>false</isAllDeviceBlocked>
+				<activeDevices>true</activeDevices>
+				<isRegistered>true</isRegistered>
+				<showInformationPills>false</showInformationPills>
+				<showInformationPillsBanner>false</showInformationPillsBanner>
+			</device>
+			<isAccountRegister>true</isAccountRegister>
+			<customer>
+				<birthDate>2001</birthDate>
+				<constitutionDate>2021</constitutionDate>
+				<incomeDate>20200101</incomeDate>
+			</customer>
+			<establishment>
+				<companyName>Establecimiento de Prueba</companyName>
+			</establishment>
+		</srv:massiveSelectTrustedDeviceAndPillsResponse>
+	</soap:Body>
+</soap:Envelope>

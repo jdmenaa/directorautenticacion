@@ -1,0 +1,137 @@
+<SOAP-ENV:Envelope
+	xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope"
+	xmlns:e="http://www.technisys.net/cmm/services/errors/v1.0"
+	xmlns:md="http://www.technisys.net/cmm/services/metadata/v2.0"
+	xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"
+	xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <SOAP-ENV:Header>
+        <md:metadata>
+            <serviceId>transactionalGetScore</serviceId>
+            <serviceVersion>1.0</serviceVersion>
+            <sessionId>5cc236dc-c559-4621-a440-2a660e7d7157</sessionId>
+            <channelId>MB</channelId>
+            <targetChannel>
+                <mnemonic>MB</mnemonic>
+            </targetChannel>
+            <organizationType>
+                <mnemonic />
+            </organizationType>
+            <executingChannel>
+                <mnemonic>MB</mnemonic>
+            </executingChannel>
+            <address>ip=10.230.241.199;</address>
+            <executingOperatorId>uriTech=OPERADOR_EMPRESA@10730;uriSFB=1#0500628912;uriRUC=3#0500628912001;OWNER=true
+			</executingOperatorId>
+            <locale>ES</locale>
+            <institutionType />
+            <template>
+                <templateId />
+            </template>
+            <channelDispatchDate>20220503205514381-0300</channelDispatchDate>
+            <msgTypeId />
+            <workflowModule />
+            <featureId>ROL@5527</featureId>
+            <sourceDate />
+            <workflowId />
+            <businessDate />
+            <terminalId>Mozilla/5.0 (Macintosh; Intel Mac OS X 11_6_0)
+				AppleWebKit/537.36 (KHTML, like Gecko) ReactNativeDebugger/0.12.1
+				Chrome/87.0.4280.141 Electron/11.4.6 Safari/537.36
+			</terminalId>
+            <sourceTime />
+            <branchId />
+            <userId />
+            <executingScope />
+            <customProperties>
+                <operatorId type="java.lang.String" />
+                <businessDate type="java.util.Date" />
+                <serviceContext type="java.lang.String" />
+                <llaveSimetrica type="java.lang.String" />
+                <funcCode type="java.lang.String" />
+                <funcType type="java.lang.String">OVA</funcType>
+                <terminal type="java.lang.String" />
+                <portal type="java.lang.String" />
+            </customProperties>
+            <llaveSimetrica type="java.lang.String" />
+            <organizationOperatorId>userName=ALMEIDA001</organizationOperatorId>
+            <parityCurrencyId />
+            <localCurrencyId />
+            <institutionId />
+            <localCountryId />
+            <bankId />
+            <ip>10.230.241.199</ip>
+            <parityQuotationNemonic />
+            <paginationInfo />
+            <internals>
+                <auditCore>true</auditCore>
+                <autoPaginationEnabled>false</autoPaginationEnabled>
+                <serviceProviderEntityName>LOCAL</serviceProviderEntityName>
+                <serviceProviderName>DINERS</serviceProviderName>
+                <translate>true</translate>
+                <serviceRequestTimestamp />
+            </internals>
+        </md:metadata>
+    </SOAP-ENV:Header>
+    <SOAP-ENV:Body>
+        <NS3:transactionalGetScoreRequest
+			xmlns:NS3="http://www.technisys.net/cmm/services/transactionalGetScore/rq/v0.0">
+            <customer>
+                <customerId>1#CID12345</customerId>
+                <additionalCustomerType>
+                    <customerTypeId>CTID24680</customerTypeId>
+                    <officialId>OID13579</officialId>
+                </additionalCustomerType>
+            </customer>
+            <callback>
+                <url>http://example.com/callback</url>
+            </callback>
+            <transaction>
+                <code>TRX98765</code>
+            </transaction>
+            <biometricAnalysis>
+                <brand>BiometricBrand</brand>
+                <customerSessionId>Session123</customerSessionId>
+                <accountId>Acc123</accountId>
+                <accountOpenDate>2022-01-01</accountOpenDate>
+                <action>Login</action>
+                <activityAmount>100.00</activityAmount>
+                <activityType>Login</activityType>
+                <biometricLogin>true</biometricLogin>
+                <payeeValue>Payee123</payeeValue>
+                <payerValue>Payer456</payerValue>
+                <solution>SolutionX</solution>
+                <uuid>UUID789</uuid>
+                <yearOfBirth>1980</yearOfBirth>
+                <accountBalance>5000.00</accountBalance>
+                <activityAmountTotal>1000.00</activityAmountTotal>
+                <activityName>ActivityNameXYZ</activityName>
+                <batchFileCreationDate>2023-05-20</batchFileCreationDate>
+                <batchFileId>BatchFile123</batchFileId>
+                <batchFilePayeesNumber>50</batchFilePayeesNumber>
+                <customerApplicationVersion>2.1.0</customerApplicationVersion>
+                <dateOfCreation>2023-04-15</dateOfCreation>
+                <deviceId>Device123</deviceId>
+                <deviceModel>ModelX</deviceModel>
+                <ip>192.168.1.100</ip>
+                <isLoginSuccess>true</isLoginSuccess>
+                <lastDeviceRegistrationDate>2023-03-10</lastDeviceRegistrationDate>
+                <loginMethod>Fingerprint</loginMethod>
+                <membershipId>Member123</membershipId>
+                <merchantName>MerchantXYZ</merchantName>
+                <onlineAccountOpenDate>2022-06-30</onlineAccountOpenDate>
+                <payeeAccountType>Checking</payeeAccountType>
+                <payeeBankCode>BankCode123</payeeBankCode>
+                <payeeBankCountry>CountryX</payeeBankCountry>
+                <payeeCreationDate>2022-07-15</payeeCreationDate>
+                <payerAccountType>Savings</payerAccountType>
+                <platformType>Mobile</platformType>
+                <sdkVersion>3.0.0</sdkVersion>
+                <transactionId>Trans123</transactionId>
+                <transactionReason>Payment</transactionReason>
+                <transactionSpeed>High</transactionSpeed>
+                <userAgent>UserAgent123</userAgent>
+                <userType>Regular</userType>
+            </biometricAnalysis>
+        </NS3:transactionalGetScoreRequest>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

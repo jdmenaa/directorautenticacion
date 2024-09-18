@@ -1,0 +1,39 @@
+{
+	"dinHeader": {
+		"aplicacionId": "app",
+		"canalId": "IN",
+		"sesionId": "370d97d8-5cde-4f0e-bbca-db8823a6c83a",
+		"dispositivo": "",
+		"usuario": "TEST",
+		"idioma": "",
+		"portalId": "PAYCLUB",
+		"uuid": "370d97d8-5cde-4f0e-bbca-db8823a6c83a",
+		"ip": "10.0.0.0",
+		"horaTransaccion": "2021-10-25T12:04:05.088COT",
+		"llaveSimetrica": "",
+		"paginado": {
+			"cantRegistros": 0,
+			"numTotalPag": 0,
+			"numPagActual": 0
+		},
+		"tags": [
+			{
+				"clave": "",
+				"valor": ""
+			}
+		]
+	},
+	"dinBody": {
+		"respuestaSolicitud": "0",
+		"estadoValidacionOTP": "SUCCESS"
+	},
+	"dinError": {
+		"tipo": "N",
+		"fecha": "2024-10-12T07:03:42.223COT",
+		"origen": null,
+		"codigo": "0000",
+		"codigoErrorProveedor": null,
+		"mensaje": "OK",
+		"detalle": "OK"
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"transaction": {
+		"type": "MON"
+	},
+	"mfa": {
+		"id": "550e8400-e29b-41d4-a716-446655440000"
+	},
+	"message": {
+		"subject": "Autorizar configuración de cuenta",
+		"desc": "Un dispositivo web ha solicitado una actualización de datos con tus credenciales ¿Deseas autorizarlo?",
+		"label": {
+			"accept": "Autorizar",
+			"reject": "Denegar"
+		}
+	},
+	"notificationMsg": {
+		"subject": "Autorizar configuración de cuenta",
+		"messageNotif": "Desde la web"
+	},
+	"notificationUuidOld": "03f67f9e-ec4f-11e6-b006-92361f002671",
+	"callbackUrl": "https://49212881-fb45-4a56-a875-26ce5b0dccab.mock.pstmn.io/push"
+}

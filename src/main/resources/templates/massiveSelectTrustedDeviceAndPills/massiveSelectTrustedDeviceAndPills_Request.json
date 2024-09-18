@@ -1,0 +1,9 @@
+{
+    "customer": {
+        "customerId": "1#CID12345",
+        "additionalCustomerType": {
+            "customerTypeId": "CTID24680",
+            "officialId": "OID13579"
+        }
+    }
+}

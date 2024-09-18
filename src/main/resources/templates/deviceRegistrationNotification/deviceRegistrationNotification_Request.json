@@ -1,0 +1,31 @@
+{
+	"mfa": {
+		"id": "6e8283bf-001a-01ab-8395-afdc65abcde0"
+	},
+	"device": {
+		"id": "5sf84as1-02gd-adcs-7632-afdc65aebac8",
+		"status": "CREATE"
+	},
+	"customer": {
+		"customerId": 15205603,
+		"profile": "S",
+		"additionalCustomerType": {
+			"customerTypeId": "custType101",
+			"officialId": "official202"
+		}
+	},
+	"establishment": {
+		"ruc": "ruc12345"
+	},
+	"transaction": {
+		"code": "FDC"
+	},
+	"variables": {
+		"deviceName": "Samsung Galaxy S21 Ultra",
+		"previousDeviceName": "Galaxy Ultra",
+		"newDeviceName": "Samsung Galaxy S23 Ultra",
+		"country": "Ecuador",
+		"city": "Quito",
+		"digitalAccount": "Blu"
+	}
+}

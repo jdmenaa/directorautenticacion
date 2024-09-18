@@ -1,0 +1,26 @@
+{
+  "mfa": {
+    "id": "123456"
+  },
+  "device": {
+    "id": "ABC123",
+    "status": "active"
+  },
+  "customer": {
+    "customerId": "CUST789",
+    "profile": "premium",
+    "additionalCustomerType": {
+      "customerTypeId": "456DEF",
+      "officialId": "789GHI"
+    }
+  },
+  "establishment": {
+    "ruc": "123456789"
+  },
+  "transaction": {
+    "code": "TRX987"
+  },
+  "variables": {
+    "deviceName": "Smartphone"
+  }
+}

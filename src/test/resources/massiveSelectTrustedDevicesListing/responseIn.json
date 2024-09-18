@@ -1,0 +1,49 @@
+{
+    "dinHeader": {
+        "aplicacionId": "TCHNSY",
+        "canalId": "MB",
+        "sesionId": "000",
+        "dispositivo": "PC",
+        "idioma": "es-EC",
+        "portalId": "PAYCLUB",
+        "uuid": "6e8283bf-469a-45ab-8395-afdc65aebac8",
+        "ip": null,
+        "horaTransaccion": "2022-11-22T11:17:00.834COT",
+        "llaveSimetrica": "",
+        "usuario": "TCHNSY",
+        "paginado": null
+    },
+    "dinBody": {
+        "dispositivos": [
+            {
+                "nombreDispositivo": "Samsung Galaxy S21 Ultra",
+                "idDispositivo": "5sf84as1-02gd-adcs-7632-afdc65aebac8",
+                "plataforma": "Android",
+                "estado": "ACTIVE",
+                "fechaCreacion": "1654604363508",
+                "fechaUltimoAcceso": "1654604363488",
+                "tokenDispositivo": "",
+                "fechaExpiracion": "1654604663488"
+            },
+            {
+                "nombreDispositivo": "Xiaomi Redmi Note 10",
+                "idDispositivo": "550e8400-e29b-41d4-a716-446655440000",
+                "plataforma": "Android",
+                "estado": "BLOCK",
+                "fechaCreacion": "1654604363508",
+                "fechaUltimoAcceso": "1654604363488",
+                "tokenDispositivo": "",
+                "fechaExpiracion": "1654604663488"
+            }
+        ]
+    },
+    "dinError": {
+        "tipo": "N",
+        "fecha": "2023-09-19T12:30:11.181GFT",
+        "origen": null,
+        "codigo": "0000",
+        "codigoErrorProveedor": null,
+        "mensaje": "OK",
+        "detalle": "OK"
+    }
+}

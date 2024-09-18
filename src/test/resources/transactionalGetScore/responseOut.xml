@@ -1,0 +1,21 @@
+<soap:Envelope
+	xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+	xmlns:md="http://www.technisys.net/cmm/services/metadata/v2.0"
+	xmlns:srv="http://www.technisys.net/cmm/services/transactionalGetScore/rs/v1.0">
+	<soap:Header>
+		<md:metadata>
+			<md:serviceId>transactionalGetScore</md:serviceId>
+			<md:serviceVersion>1.0</md:serviceVersion>
+		</md:metadata>
+	</soap:Header>
+	<soap:Body>
+		<srv:transactionalGetScoreResponse>
+			<fraudMonitoring>
+				<id>12345</id>
+			</fraudMonitoring>
+			<customer>
+				<ageRange>0-25</ageRange>
+			</customer>
+		</srv:transactionalGetScoreResponse>
+	</soap:Body>
+</soap:Envelope>

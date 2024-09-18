@@ -1,0 +1,65 @@
+{
+    "customer": {
+        "customerId": "CU123456",
+        "additionalCustomerType": {
+            "customerTypeId": "CUT789",
+            "officialId": "OFF456"
+        }
+    },
+    "transaction": {
+        "type": "purchase"
+    },
+    "biometricAnalysis": {
+        "brand": "BiometricoX",
+        "customerSessionId": "SESSION123",
+        "accountId": "ACC789",
+        "accountOpenDate": "2024-02-20",
+        "action": "login",
+        "activityAmount": 100.50,
+        "activityType": "login",
+        "biometricLogin": true,
+        "payeeValue": 50.25,
+        "payerValue": 50.25,
+        "solution": "BiometricSolution",
+        "uuid": "UUID123",
+        "yearOfBirth": 1985,
+        "accountBalance": 5000.00,
+        "activityAmountTotal": 500.00,
+        "activityName": "LoginActivity",
+        "batchFileCreationDate": "2024-02-25",
+        "batchFileId": "BATCH789",
+        "batchFilePayeesNumber": 10,
+        "customerApplicationVersion": "2.0",
+        "dateOfCreation": "2024-02-15",
+        "deviceId": "DEV123",
+        "deviceModel": "ModelX",
+        "ip": "192.168.1.1",
+        "isLoginSuccess": true,
+        "lastDeviceRegistrationDate": "2024-01-01",
+        "loginMethod": "Biometric",
+        "membershipId": "MEMB123",
+        "merchantName": "MerchantX",
+        "onlineAccountOpenDate": "2024-02-01",
+        "payeeAccountType": "checking",
+        "payeeBankCode": "BANK456",
+        "payeeBankCountry": "US",
+        "payeeCreationDate": "2024-01-15",
+        "payerAccountType": "savings",
+        "platformType": "Mobile",
+        "sdkVersion": "3.0",
+        "transactionId": "TRANS789",
+        "transactionReason": "Purchase",
+        "transactionSpeed": "Fast",
+        "userAgent": "Chrome",
+        "userType": "Customer",
+        "authenticationResult": "Success",
+        "authMethodUsed": "Biometric",
+        "numOfFailedAuth": 0,
+        "yob": 1985,
+        "isLocked": false
+    },
+    "caseUpdate": {
+        "accountId": "ACC123",
+        "transactionId": "TRANS456"
+    }
+}

@@ -1,0 +1,16 @@
+<soap:Envelope
+	xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+	xmlns:md="http://www.technisys.net/cmm/services/metadata/v2.0"
+	xmlns:srv="http://www.technisys.net/cmm/services/updateInfoBiocatch/rs/v1.0">
+	<soap:Header>
+		<md:metadata>
+			<md:serviceId>updateInfoBiocatch</md:serviceId>
+			<md:serviceVersion>1.0</md:serviceVersion>
+		</md:metadata>
+	</soap:Header>
+	<soap:Body>
+		<srv:updateInfoBiocatchResponse>
+			<bcStatus>updated</bcStatus>
+		</srv:updateInfoBiocatchResponse>
+	</soap:Body>
+</soap:Envelope>

@@ -1,0 +1,16 @@
+{
+  "idUniken": "TEST",
+  "responseCode": "0",
+  "notificationUuid": "03f67f9e-ec4f-11e6-b006-92361f002671",
+  "actionResponse": "Approved",
+  "errorCode": "0",
+  "errorMessage": "",
+  "status": "ACTIVE",
+  "deliveryStatus": "NOTIFIED",
+  "isDsVerified": "true",
+  "msgId": "",
+  "createTs": "1646252183",
+  "updateTs": "1646252243",
+  "expiryTimestamp": "1646252363",
+  "clientIpAddress": "192.168.1.100"
+}

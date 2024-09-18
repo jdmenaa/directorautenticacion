@@ -1,0 +1,40 @@
+{
+    "dinHeader": {
+        "aplicacionId": "WLT-001",
+        "canalId": "IN",
+        "sesionId": "123",
+        "dispositivo": "PC",
+        "idioma": "es-EC",
+        "portalId": "PAYCLUB",
+        "uuid": "159cb22a-d7dc-4d6f-9455-5ac863460a1b_04",
+        "ip": "100.2.3.4",
+        "horaTransaccion": "2022-11-02T12:08:06.162COT",
+        "llaveSimetrica": "",
+        "usuario": "TEST",
+        "paginado": null
+    },
+    "dinBody": {
+        "idUniken": "18994de4ce0477600f25fa96c51ca39b8",
+        "idFalcon": "18994de4ce0477600f25fa96c51ca39b8",
+        "idBiocatch": "18994de4ce0477600f25fa96c51ca39b8",
+        "dispositivosBloqueados": false,
+        "dispositivosActivos": true,
+        "existeDispositivos": true,
+        "mostrarPildoras": false,
+        "mostrarPildorasBanner":false,
+        "registroCuentas": true,
+        "fechaNacimiento": "2001",
+        "fechaConstitucion": "2021",
+        "fechaIngreso": "20200101",
+        "razonSocial": "Establecimiento de Prueba"
+    },
+    "dinError": {
+        "tipo": "N",
+        "fecha": "2023-09-18T22:45:00.711UTC",
+        "origen": null,
+        "codigo": "0000",
+        "codigoErrorProveedor": null,
+        "mensaje": "OK",
+        "detalle": "OK"
+    }
+}

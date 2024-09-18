@@ -1,0 +1,84 @@
+
+
+    <SOAP-ENV:Envelope
+        xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope"
+        xmlns:e="http://www.technisys.net/cmm/services/errors/v1.0"
+        xmlns:md="http://www.technisys.net/cmm/services/metadata/v2.0"
+        xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"
+        xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+        <SOAP-ENV:Header>
+            <md:metadata>
+                <serviceId>updateUserDeviceState</serviceId>
+                <serviceVersion>1.0</serviceVersion>
+                <sessionId>66c70e82-d24b-4383-9cc9-a9b52d0b77dd</sessionId>
+                <applicationId/>
+                <channelId>IN</channelId>
+                <targetChannel>
+                    <mnemonic>IN</mnemonic>
+                </targetChannel>
+                <organizationType>
+                    <mnemonic/>
+                </organizationType>
+                <executingChannel>
+                    <mnemonic>IN</mnemonic>
+                </executingChannel>
+                <address>ip=98.98.27.122;</address>
+                <executingOperatorId>uriTech=OPERADOR_EMPRESA@20426;uriSFB=1#1300492459;uriRUC=3#1300492459;OWNER=true</executingOperatorId>
+                <locale>ES</locale>
+                <institutionType/>
+                <template>
+                    <templateId/>
+                </template>
+                <channelDispatchDate>20240425120543444-0500</channelDispatchDate>
+                <msgTypeId/>
+                <workflowModule/>
+                <featureId>ROL@5628</featureId>
+                <sourceDate/>
+                <workflowId>Zot7LiU_Lc2Ob-K7EtlMt</workflowId>
+                <businessDate/>
+                <terminalId>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36</terminalId>
+                <sourceTime/>
+                <branchId/>
+                <userId/>
+                <executingScope/>
+                <customProperties>
+                    <operatorId type="java.lang.String"/>
+                    <businessDate type="java.util.Date"/>
+                    <serviceContext type="java.lang.String"/>
+                    <llaveSimetrica type="java.lang.String"/>
+                    <funcCode type="java.lang.String"/>
+                    <funcType type="java.lang.String">OVB</funcType>
+                    <terminal type="java.lang.String"/>
+                    <portal type="java.lang.String">PBN</portal>
+                    <deviceId type="java.lang.String"/>
+                </customProperties>
+                <llaveSimetrica type="java.lang.String"/>
+                <organizationOperatorId>userName=CASH20QA2025</organizationOperatorId>
+                <parityCurrencyId/>
+                <localCurrencyId/>
+                <institutionId/>
+                <localCountryId/>
+                <bankId/>
+                <ip>98.98.27.122</ip>
+                <parityQuotationNemonic/>
+                <paginationInfo/>
+                <internals>
+                    <auditCore>true</auditCore>
+                    <autoPaginationEnabled>false</autoPaginationEnabled>
+                    <serviceProviderEntityName>LOCAL</serviceProviderEntityName>
+                    <serviceProviderName>CMM</serviceProviderName>
+                    <translate>true</translate>
+                    <serviceRequestTimestamp/>
+                </internals>
+            </md:metadata>
+        </SOAP-ENV:Header>
+        <SOAP-ENV:Body>
+            <NS3:updateUserDeviceStateRequest
+                xmlns:NS3="http://www.technisys.net/cmm/services/updateUserDeviceState/rq/v1.0">
+                <mfa>
+                    <id>300492459</id>
+                    <state>a</state>
+                </mfa>
+            </NS3:updateUserDeviceStateRequest>
+        </SOAP-ENV:Body>
+    </SOAP-ENV:Envelope>

@@ -1,0 +1,40 @@
+{
+	"dinHeader": {
+		"aplicacionId": "TCHNSY",
+		"canalId": "MB",
+		"uuid": ":5cc236dc-c559-4621-a440-2a660e7d7157",
+		"sesionId": "5cc236dc-c559-4621-a440-2a660e7d7157",
+		"idioma": "ES",
+		"ip": "10.230.241.199",
+		"horaTransaccion": "2022-05-03T18:55:14.00381",
+		"nivelTrace": "DEBUG",
+		"nombreServicio": "deviceRegistrationNotification",
+		"llaveSimetrica": "",
+		"portalId": "",
+		"paginado": {
+			"cantRegistros": "0",
+			"numTotalPag": "0",
+			"numPagActual": "0"
+		},
+		"usuario": "ALMEIDA001"
+	},
+	"dinBody": {
+		"idUniken": "6e8283bf-001a-01ab-8395-afdc65abcde0",
+		"idDispositivo": "5sf84as1-02gd-adcs-7632-afdc65aebac8",
+		"estado": "CREATE",
+		"identificacionUsuario": "15205603",
+		"perfil": "S",
+		"rucEmpresa": "ruc12345",
+		"numIdentificacionAdicional": "custType101",
+		"tipoIdentificacionAdicional": "official202",
+		"codigoTransaccion": "FDC",
+		"variables": {
+			"nombreDispositivo": "Samsung Galaxy S21 Ultra",
+			"nombreDispositivoAnterior": "Galaxy Ultra",
+			"nombreDispositivoNuevo":"Samsung Galaxy S23 Ultra",
+			"pais": "Ecuador",
+			"ciudad": "Quito",
+			"cuentaDigital": "Blu"
+		}
+	}
+}

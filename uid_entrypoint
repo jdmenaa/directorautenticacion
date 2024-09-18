@@ -1,0 +1,13 @@
+#!/bin/bash
+
+## If the user does not exist (randomic user), pass condition 
+if ! whoami &> /dev/null; then
+  ## Check file and write permissions over it
+  if [ -w /etc/passwd ]; then
+    ## Add randomic user to the system
+    echo "${USER_NAME:-default}:x:$(id -u):0:${USER_NAME:-default} user:${HOME}:/sbin/nologin" >> /etc/passwd
+  fi
+fi
+
+## Receive extra arguments after the entrypoint
+exec "$@"

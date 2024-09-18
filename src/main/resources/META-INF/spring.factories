@@ -1,0 +1,1 @@
+org.springframework.boot.env.EnvironmentPostProcessor=com.technisys.director.core.configuration.ResourcesResolverEnvironmentPostProcessor

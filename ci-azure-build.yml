@@ -1,0 +1,135 @@
+# Organization: Technisys
+# Creation date: 2022-04-28
+# Author: jlopez@technisys.com,
+# Description: Docker Build, Push and deployment based on Helm Chart
+# Status: WIP
+
+parameters:
+  ## params: enable_sonarcloud_analysis
+  ## description: Enable Sonar Cloud Analysis
+  - name: enable_sonarcloud_analysis
+    displayName: "Enable Sonar Cloud Analysis"
+    type: boolean
+    default: false
+
+  ## params: enable_build_artifact
+  ## description: Enable Build Artifact
+  - name: enable_build_artifact
+    displayName: "Enable Build Artifact"
+    type: boolean
+    default: true
+
+  ## params: enable_push_docker
+  ## description: Enable Push Docker ACR
+  - name: enable_push_docker
+    displayName: "Enable Push Docker ECR"
+    type: boolean
+    default: true
+
+  ## params: enable_push_chart
+  ## description: Enable Push Charts S3
+  - name: enable_push_chart
+    displayName: "Enable Push Charts S3"
+    type: boolean
+    default: true
+
+  ## params: dev_env_enabled
+  ## description: Enable dev environment
+  - name: dev_env_enabled
+    displayName: "Enable dev environment"
+    type: boolean
+    default: true
+
+  ## params: preprod_env_enabled
+  ## description: Enable preprod environment
+  - name: preprod_env_enabled
+    displayName: "Enable preprod environment"
+    type: boolean
+    default: false
+
+  ## params: local_env_enabled
+  ## description: Enable local environment
+  - name: local_env_enabled
+    displayName: "Enable local environment"
+    type: boolean
+    default: false
+
+  ## params: prod_env_enabled
+  ## description: Enable prod environment
+  - name: prod_env_enabled
+    displayName: "Enable prod environment"
+    type: boolean
+    default: false
+
+trigger:
+  branches:
+    include:
+      - master
+      - develop
+      - directorAutenticacion
+  paths:
+    include:
+      - directorautenticacion/*
+    exclude:
+      - directorautenticacion/ci-azure-build.yml
+
+pr:
+  branches:
+    include:
+      - master
+      - develop
+      - directorAutenticacion
+  paths:
+    include:
+      - directorautenticacion/*
+    exclude:
+      - directorautenticacion/ci-azure-build.yml
+
+pool:
+  name: EC-Diners
+
+variables:
+  - group: GIT
+  - group: AWS
+  - group: SONAR
+  - group: HELM
+  - group: ARTIFACTORY
+  - group: TAG_VERSION
+  - group: COMPONENT_BASE
+  - name: MS_NAME_REPO
+    value: directorautenticacion
+
+resources:
+  repositories:
+    - repository: ec-diners-core-templates
+      type: bitbucket
+      endpoint: 'Bitbucket'
+      name: technisys/ec-diners-core-templates
+    - repository: ec-diners-operations-deployments
+      type: bitbucket
+      endpoint: 'Bitbucket'
+      name: technisys/ec-diners-operations-deployments
+
+stages:
+  - template: profile/profile-CICD-A/v1.0.5/profile.yml@ec-diners-core-templates
+    parameters:
+      mvn_settings_securefile: MAVEN_SETTINGS_SERVICES_NEW_IO
+      pom_file_path: $(MS_NAME_REPO)/pom.xml
+      ms_path: $(MS_NAME_REPO)
+      enable_deploy_snapshot: true
+      registry: $(AWS_ACCOUNT_ID).dkr.ecr.$(AWS_REGION).amazonaws.com
+      repository: technisys-director-autenticacion
+      container_registry: aws-ecr-diners-$(MS_NAME_REPO)
+      dockerfile_path: $(MS_NAME_REPO)/Dockerfile
+      docker_build_args: '--build-arg="AWS_ACCOUNT_ID=$(AWS_ACCOUNT_ID)" --build-arg="AWS_REGION=$(AWS_REGION)" --build-arg="VERSION=$(VERSION)" --build-arg="VERSION_JDK11=$(VERSION_JDK11)" --build-arg="BASH_VERSION=$(BASH_VERSION)"'
+      maven_settings_path: maven-settings.xml
+      aws_ecr_enabled: true
+      aws_helm_enabled: true
+      dev_env_enabled: ${{ parameters.dev_env_enabled }}
+      local_env_enabled: ${{ parameters.local_env_enabled }}
+      preprod_env_enabled: ${{ parameters.preprod_env_enabled }}
+      prod_env_enabled: ${{ parameters.prod_env_enabled }}
+      enable_sonarcloud_analysis: ${{ parameters.enable_sonarcloud_analysis }}
+      enable_build_artifact: ${{ parameters.enable_build_artifact }}
+      enable_push_docker: ${{ parameters.enable_push_docker }}
+      enable_push_chart: ${{ parameters.enable_push_chart }}

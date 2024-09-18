@@ -1,0 +1,27 @@
+{
+	"customer": {
+		"customerId": "1#cust123",
+		"additionalCustomerType": {
+			"customerTypeId": "custType456",
+			"officialId": "official789"
+		},
+		"faceId": "faceId123",
+		"profile": {
+			"profileType": {
+				"mnemonic": "S"
+			}
+		}
+	},
+	"mfa": {
+		"id": "mfa456"
+	},
+	"fraudMonitoring": {
+		"id": "fraudId789"
+	},
+	"biometric": {
+		"id": "biometricId123"
+	},
+	"validation": {
+		"status": "validated"
+	}
+}

@@ -1,0 +1,19 @@
+<soap:Envelope
+	xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+	xmlns:md="http://www.technisys.net/cmm/services/metadata/v2.0"
+	xmlns:srv="http://www.technisys.net/cmm/services/processPushGeneration/rs/v1.0">
+	<soap:Header>
+		<md:metadata>
+			<md:serviceId>processPushGeneration</md:serviceId>
+			<md:serviceVersion>1.0</md:serviceVersion>
+		</md:metadata>
+	</soap:Header>
+	<soap:Body>
+		<srv:processPushGenerationResponse>
+			<notification>
+				<response>0</response>
+				<notificationUuid>7f587b63-09ff-4bf0-84d5-8a8f61758c29</notificationUuid>
+			</notification>
+		</srv:processPushGenerationResponse>
+	</soap:Body>
+</soap:Envelope>

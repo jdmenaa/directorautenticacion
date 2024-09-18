@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<statusListener class="ch.qos.logback.core.status.NopStatusListener" />
+	<appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder class="co.elastic.logging.logback.EcsEncoder" />
+		<encoder>
+			<pattern>%d{dd-MM-yyyy HH:mm:ss.SSS} [%thread] %-5level %logger{500} - %msg%n</pattern>
+		</encoder>
+	</appender>
+	<logger name="com.technisys" level="DEBUG" additivity="false">
+		<appender-ref ref="CONSOLE" />
+	</logger>
+	<logger name="com.technisys.director.core.commons.coreinvocation" level="DEBUG"
+		additivity="false">
+		<appender-ref ref="CONSOLE" />
+	</logger>
+
+	<logger name="net.technisys.assets" level="error" />
+	<logger name="net.technisys.connectionpool" level="error" />
+	<logger name="com.technisys.workflow" level="error" />
+	<logger name="org.camunda" level="error" />
+	<logger name="com.zaxxer.hikari" level="error" />
+	<logger name="org.springframework.jdbc" level="error" />
+	<root level="INFO">
+		<appender-ref ref="CONSOLE" />
+	</root>
+</configuration>

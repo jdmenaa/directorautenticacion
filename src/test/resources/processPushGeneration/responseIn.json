@@ -1,0 +1,30 @@
+{
+	"dinHeader": {
+		"aplicacionId": "WLT-001",
+		"canalId": "IN",
+		"sesionId": "123",
+		"dispositivo": "PC",
+		"idioma": "es-EC",
+		"portalId": "PAYCLUB",
+		"uuid": "159cb22a-d7dc-4d6f-9455-5ac863460a1b_04",
+		"ip": "100.2.3.4",
+		"horaTransaccion": "2022-11-02T12:08:06.162COT",
+		"llaveSimetrica": "",
+		"usuario": "TEST",
+		"paginado": null,
+		"tags": null
+	},
+	"dinBody": {
+		"respuestaSolicitud": "0",
+		"notificationUuid": "7f587b63-09ff-4bf0-84d5-8a8f61758c29"
+	},
+	"dinError": {
+		"tipo": "N",
+		"fecha": "2024-04-16T16:47:30.557ECT",
+		"origen": null,
+		"codigo": "0000",
+		"codigoErrorProveedor": null,
+		"mensaje": "OK",
+		"detalle": "OK"
+	}
+}

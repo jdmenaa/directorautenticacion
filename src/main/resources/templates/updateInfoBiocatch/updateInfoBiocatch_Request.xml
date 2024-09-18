@@ -1,0 +1,143 @@
+<SOAP-ENV:Envelope
+	xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope"
+	xmlns:e="http://www.technisys.net/cmm/services/errors/v1.0"
+	xmlns:md="http://www.technisys.net/cmm/services/metadata/v2.0"
+	xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"
+	xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <SOAP-ENV:Header>
+        <md:metadata>
+            <serviceId>updateInfoBiocatch</serviceId>
+            <serviceVersion>1.0</serviceVersion>
+            <sessionId>5cc236dc-c559-4621-a440-2a660e7d7157</sessionId>
+            <channelId>MB</channelId>
+            <targetChannel>
+                <mnemonic>MB</mnemonic>
+            </targetChannel>
+            <organizationType>
+                <mnemonic />
+            </organizationType>
+            <executingChannel>
+                <mnemonic>MB</mnemonic>
+            </executingChannel>
+            <address>ip=10.230.241.199;</address>
+            <executingOperatorId>uriTech=OPERADOR_EMPRESA@10730;uriSFB=1#0500628912;uriRUC=3#0500628912001;OWNER=true
+			</executingOperatorId>
+            <locale>ES</locale>
+            <institutionType />
+            <template>
+                <templateId />
+            </template>
+            <channelDispatchDate>20220503205514381-0300</channelDispatchDate>
+            <msgTypeId />
+            <workflowModule />
+            <featureId>ROL@5527</featureId>
+            <sourceDate />
+            <workflowId />
+            <businessDate />
+            <terminalId>Mozilla/5.0 (Macintosh; Intel Mac OS X 11_6_0)
+				AppleWebKit/537.36 (KHTML, like Gecko) ReactNativeDebugger/0.12.1
+				Chrome/87.0.4280.141 Electron/11.4.6 Safari/537.36
+			</terminalId>
+            <sourceTime />
+            <branchId />
+            <userId />
+            <executingScope />
+            <customProperties>
+                <operatorId type="java.lang.String" />
+                <businessDate type="java.util.Date" />
+                <serviceContext type="java.lang.String" />
+                <llaveSimetrica type="java.lang.String" />
+                <funcCode type="java.lang.String" />
+                <funcType type="java.lang.String">OVA</funcType>
+                <terminal type="java.lang.String" />
+                <portal type="java.lang.String" />
+            </customProperties>
+            <llaveSimetrica type="java.lang.String" />
+            <organizationOperatorId>userName=ALMEIDA001</organizationOperatorId>
+            <parityCurrencyId />
+            <localCurrencyId />
+            <institutionId />
+            <localCountryId />
+            <bankId />
+            <ip>10.230.241.199</ip>
+            <parityQuotationNemonic />
+            <paginationInfo />
+            <internals>
+                <auditCore>true</auditCore>
+                <autoPaginationEnabled>false</autoPaginationEnabled>
+                <serviceProviderEntityName>LOCAL</serviceProviderEntityName>
+                <serviceProviderName>DINERS</serviceProviderName>
+                <translate>true</translate>
+                <serviceRequestTimestamp />
+            </internals>
+        </md:metadata>
+    </SOAP-ENV:Header>
+    <SOAP-ENV:Body>
+        <NS3:updateInfoBiocatchRequest
+			xmlns:NS3="http://www.technisys.net/cmm/services/updateInfoBiocatch/rq/v0.0">
+            <customer>
+                <customerId>1#CU123456</customerId>
+                <additionalCustomerType>
+                    <customerTypeId>CUT789</customerTypeId>
+                    <officialId>OFF456</officialId>
+                </additionalCustomerType>
+            </customer>
+            <transaction>
+                <type>purchase</type>
+            </transaction>
+            <biometricAnalysis>
+                <brand>BiometricoX</brand>
+                <customerSessionId>SESSION123</customerSessionId>
+                <accountId>ACC789</accountId>
+                <accountOpenDate>2024-02-20</accountOpenDate>
+                <action>login</action>
+                <activityAmount>100.50</activityAmount>
+                <activityType>login</activityType>
+                <biometricLogin>true</biometricLogin>
+                <payeeValue>50.25</payeeValue>
+                <payerValue>50.25</payerValue>
+                <solution>BiometricSolution</solution>
+                <uuid>UUID123</uuid>
+                <yearOfBirth>1985</yearOfBirth>
+                <accountBalance>5000.00</accountBalance>
+                <activityAmountTotal>500.00</activityAmountTotal>
+                <activityName>LoginActivity</activityName>
+                <batchFileCreationDate>2024-02-25</batchFileCreationDate>
+                <batchFileId>BATCH789</batchFileId>
+                <batchFilePayeesNumber>10</batchFilePayeesNumber>
+                <customerApplicationVersion>2.0</customerApplicationVersion>
+                <dateOfCreation>2024-02-15</dateOfCreation>
+                <deviceId>DEV123</deviceId>
+                <deviceModel>ModelX</deviceModel>
+                <ip>192.168.1.1</ip>
+                <isLoginSuccess>true</isLoginSuccess>
+                <lastDeviceRegistrationDate>2024-01-01</lastDeviceRegistrationDate>
+                <loginMethod>Biometric</loginMethod>
+                <membershipId>MEMB123</membershipId>
+                <merchantName>MerchantX</merchantName>
+                <onlineAccountOpenDate>2024-02-01</onlineAccountOpenDate>
+                <payeeAccountType>checking</payeeAccountType>
+                <payeeBankCode>BANK456</payeeBankCode>
+                <payeeBankCountry>US</payeeBankCountry>
+                <payeeCreationDate>2024-01-15</payeeCreationDate>
+                <payerAccountType>savings</payerAccountType>
+                <platformType>Mobile</platformType>
+                <sdkVersion>3.0</sdkVersion>
+                <transactionId>TRANS789</transactionId>
+                <transactionReason>Purchase</transactionReason>
+                <transactionSpeed>Fast</transactionSpeed>
+                <userAgent>Chrome</userAgent>
+                <userType>Customer</userType>
+                <authenticationResult>Success</authenticationResult>
+                <authMethodUsed>Biometric</authMethodUsed>
+                <numOfFailedAuth>0</numOfFailedAuth>
+                <yob>1985</yob>
+                <isLocked>false</isLocked>
+            </biometricAnalysis>
+            <caseUpdate>
+                <accountId>ACC123</accountId>
+                <transactionId>TRANS456</transactionId>
+            </caseUpdate>
+        </NS3:updateInfoBiocatchRequest>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,8 @@
+{
+    "fraudMonitoring": {
+        "id": 12345
+    },
+    "customer": {
+        "ageRange": "0-25"
+    }
+}

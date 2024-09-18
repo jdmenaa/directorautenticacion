@@ -1,0 +1,37 @@
+{
+  "user": {
+    "id": "id"
+  },
+  "transaction": {
+    "type": "type",
+    "code": "code"
+  },
+  "customer": {
+    "customerId": "customerId",
+    "token": {
+      "value": "value"
+    }
+  },
+  "profile": {
+    "profileType": {
+      "mnemonic": "mnemonic"
+    }
+  },
+  "establishment": {
+    "ruc": "ruc"
+  },
+  "consumer": {
+    "value": "value"
+  },
+  "creditCard": {
+    "entityCode": "entityCode",
+    "creditCardAccount": {
+      "brand": {
+        "mnemonic": "mnemonic"
+      }
+    }
+  },
+  "otp": {
+    "uuidOld": "uuidOld"
+  }
+}

@@ -1,0 +1,38 @@
+{
+	"dinHeader": {
+		"aplicacionId": "TCHNSY",
+		"canalId": "MB",
+		"horaTransaccion": "2022-05-03T18:55:14.00381",
+		"ip": "10.230.241.199",
+		"llaveSimetrica": "",
+		"nivelTrace": "DEBUG",
+		"nombreServicio": "processPushGeneration",
+		"paginado": {
+			"cantRegistros": "0",
+			"numPagActual": "0",
+			"numTotalPag": "0"
+		},
+		"portalId": "PAYCLUB",
+		"sesionId": "5cc236dc-c559-4621-a440-2a660e7d7157",
+		"usuario": "TEST",
+		"uuid": ":5cc236dc-c559-4621-a440-2a660e7d7157"
+	},
+	"dinBody": {
+		"idUniken": "550e8400-e29b-41d4-a716-446655440000",
+		"transactionType": "MON",
+		"msg": {
+			"subject": "Autorizar configuración de cuenta",
+			"message": "Un dispositivo web ha solicitado una actualización de datos con tus credenciales ¿Deseas autorizarlo?",
+			"label": {
+				"accept": "Autorizar",
+				"reject": "Denegar"
+			}
+		},
+		"notificationMsg": {
+			"subject": "Autorizar configuración de cuenta",
+			"message": "Desde la web"
+		},
+		"notificationUuidOld": "03f67f9e-ec4f-11e6-b006-92361f002671",
+		"callbackUrl": "https://49212881-fb45-4a56-a875-26ce5b0dccab.mock.pstmn.io/push"
+	}
+}

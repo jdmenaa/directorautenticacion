@@ -1,0 +1,29 @@
+{
+	"dinHeader": {
+		"aplicacionId": "TCHNSY",
+		"canalId": "IN",
+		"uuid": "174331236620762684679273915916385614770:96619d48-2879-41cf-a2ec-2a2401090928",
+		"sesionId": "96619d48-2879-41cf-a2ec-2a2401090928",
+		"idioma": "ES",
+		"ip": "201.234.84.213",
+		"horaTransaccion": "2021-05-27T09:50:58.00875",
+		"nivelTrace": "DEBUG",
+		"nombreServicio": "verifyOtpUniken",
+		"llaveSimetrica": "",
+		"portalId": "PBN",
+		"paginado": {
+			"cantRegistros": "0",
+			"numTotalPag": "0",
+			"numPagActual": "0"
+		},
+		"usuario": "TEST"
+	},
+	"dinBody": {
+		"notificacionUuid": "03f67f9e-ec4f-11e6-b006-92361f002671",
+		"otp": "915454",
+		"tipoTransaccion": "MON",
+		"identificacionUsuario": "1714346234",
+		"perfil": "S",
+		"transaccion": "ADD"
+	}
+}

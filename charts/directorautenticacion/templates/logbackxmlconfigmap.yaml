@@ -1,0 +1,9 @@
+{{- if .Values.logbackConfig }}
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Values.logbackConfig.name }}
+  namespace: {{ .Release.Namespace }}
+data:
+  logback_xml: {{ .Values.logbackConfig.logbackXML | indent 4 }}
+{{- end }}

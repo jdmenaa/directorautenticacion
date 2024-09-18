@@ -1,0 +1,27 @@
+{
+	"mfa": {
+		"id": "18994de4ce0477600f25fa96c51ca39b8"
+	},
+	"fraudMonitoring": {
+		"id": "18994de4ce0477600f25fa96c51ca39b8"
+	},
+	"biometric": {
+		"id": "18994de4ce0477600f25fa96c51ca39b8"
+	},
+	"device": {
+		"isAllDeviceBlocked": false,
+		"activeDevices": true,
+		"isRegistered": true,
+		"showInformationPills": false,
+		"showInformationPillsBanner": false
+	},
+	"isAccountRegister": true,
+	"customer": {
+		"birthDate": 2001,
+		"constitutionDate": 2021,
+		"incomeDate": 20200101
+	},
+	"establishment": {
+		"companyName": "Establecimiento de Prueba"
+	}
+}

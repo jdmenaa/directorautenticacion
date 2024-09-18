@@ -1,0 +1,35 @@
+{
+	"customer": {
+		"customerId": 1714346234,
+		"token": {
+			"value": ""
+		}
+	},
+	"profile": {
+		"profileType": {
+			"mnemonic": "S"
+		}
+	},
+	"establishment": {
+		"ruc": ""
+	},
+	"otp": {
+		"value": 915454,
+		"uuid": "03f67f9e-ec4f-11e6-b006-92361f002671"
+	},
+	"transaction": {
+		"type": "MON",
+		"code": "ADD"
+	},
+	"consumer": {
+		"value": ""
+	},
+	"creditCard": {
+		"entityCode": "",
+		"creditCardAccount": {
+			"brand": {
+				"mnemonic": ""
+			}
+		}
+	}
+}
